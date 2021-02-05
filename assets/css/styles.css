@@ -1,0 +1,191 @@
+.w-100 {
+    margin-top: 80px;
+    height: 400px;
+    object-fit: cover;
+}
+
+@media (min-width: 992px) {
+    .w-100 {
+        height: 500px;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.bg-light {
+    background-color: #FFFFFF !important;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.sub_title {
+    font-size: 10px;
+    text-align: center;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 14px;
+    font-size: none;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.section1 {
+    padding-top: 16px;
+    margin-top: 16px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.txt_tarif {
+    line-height: 24px;
+}
+
+.card {
+    margin-bottom: 16px;
+}
+
+.card-title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.card-img-paket {
+    height: 250px;
+    object-fit: cover;
+}
+
+.center {
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+
+.bg_selection {
+    background-image: url(../img/bg_1.png);
+    background-size: cover;
+}
+
+.putih {
+    color: #FFF;
+}
+
+.merah {
+    color: #EC3237;
+}
+
+footer {
+    margin-top: 32px;
+    padding: 32px;
+    background-color: #FFDF01;
+    text-align: center;
+}
+
+.hitam {
+    color: black;
+}
+
+.imglogo {
+    height: 300px;
+}
+
+.mapouter {
+    width: 100%;
+}
+
+.imgbren {
+    max-height: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #EC3237;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #EC3237;
+    border-bottom: 1px solid #EC3237;
+    ;
+}
+
+.bg-blue {
+    background-color: #EC3237;
+}
+
+.btn-primary {
+    background-color: #EC3237;
+    border-color: #EC3237;
+}
+
+.rounded-circle {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #EC3237;
+    font-weight: bold;
+}
+
+.text_bold_p {
+    font-family: Roboto;
+    font-weight: 500;
+    color: #7a7a7a;
+}
+
+.margin_left {
+    margin-right: 16px;
+}
+
+.one_line {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+@media (max-width: 600px) {
+    .hilang {
+        display: none;
+    }
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 16px;
+    right: 16px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 14px;
+}
